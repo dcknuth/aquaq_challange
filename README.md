@@ -27,3 +27,4 @@ For the -4 version I moved the conversion to integers while reading in the file 
 * 18 - Emit time - Find how many seconds away is the nearest palindromic time and sum those. There is probably a cleaner way to do this or to use a time module, but it ran in <10 seconds, so good enough and not too difficult
 * 19 - It's alive - Find how many cells are alive after each game-of-life and sum them up. This was not too difficult, but was slow to run. The first version took 2491 seconds and was basic Python
 The -2 version used NumPy and the SciPy convolution2d function. It ran ~8x faster, but still was not using all the CPU codes, similar to the puzzle 15 attempts. Using WinPython did not help as it also seems locked to 2 CPUs via used libraries
+* 20 - Blackjack - Play consecutive games of blackjack with the input and count up the number of wins. Just had to remember the "all bust" condition check and then it was pretty straightforward and ran quick
