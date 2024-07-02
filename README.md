@@ -43,3 +43,4 @@ Coding puzzles from https://challenges.aquaq.co.uk/
   - v2 in the last rewrite, I noticed an error in the previous implementation. So I fixed that and reran the character based version. It ran in less than two minutes, so it was not required to move to the true/false method, just to code it correctly with the cache.
 * 31 - Brandless Combination Cubes - Currently waiting to be finished on the home computer
 * 32 - In Parenthesis - Find the number of lines that have balanced braces. This was pretty straight forward and I only needed to remember to check if any opening braces are left at the end of the line
+* 33 - Bit of Bully - Find the minimum number of darts needed for all target scores up to and including the given target score. It's easy after you already know how, but it took me some time to figure this out. I included the couple false starts for those that might have also run into these
