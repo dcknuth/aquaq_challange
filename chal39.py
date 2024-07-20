@@ -5,8 +5,6 @@ filename = 'input39.txt'
 with open(filename) as f:
     ls = f.read().strip().split()
 
-print(ls)
-
 last_darts = []
 winner = []
 cur_scores = [0, 0]
